@@ -1,0 +1,83 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10rem;
+}
+
+.content {
+	width: 65%;
+	box-shadow: 0 0 5px 2px #00ffff;
+	border-radius: 15px;
+	padding: 5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.inputBlock {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+.error {
+	margin-top: 2rem;
+	color: red;
+}
+
+.buttonBlock {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-top: 5rem;
+	gap: 1rem;
+}
+
+.button {
+	width: min-content;
+}
+
+@media screen and (width <= 1000px) {
+	.wrapper {
+		padding: 10rem 5rem;
+	}
+
+	.content {
+		width: 75%;
+	}
+}
+
+@media screen and (width <= 800px) {
+	.wrapper {
+		padding: 10rem 5rem;
+	}
+
+	.content {
+		width: 100%;
+	}
+}
+
+@media screen and (width <= 600px) {
+	.wrapper {
+		padding: 5rem 2rem;
+	}
+
+	.content {
+		padding: 2rem;
+	}
+}
+
+@media screen and (width <= 480px) {
+	.wrapper {
+		padding: 5rem 0;
+	}
+
+	.content {
+		box-shadow: none;
+		border: none;
+		border-radius: none;
+		padding: 0;
+	}
+}

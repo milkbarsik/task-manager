@@ -1,0 +1,18 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	width: fit-content;
+	max-width: 100%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.87);
+	font-size: 1.5rem;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.tag {
+	padding: 0.5rem;
+}
+
+.text {
+	padding: 0.5rem;
+	color: #00ffff;
+}
